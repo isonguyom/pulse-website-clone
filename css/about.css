@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: url("../images/footer-bg.jpg") no-repeat fixed;
+    background-size: cover;
+    height: 660px;
+    color: white;
+    padding: 10px 50px;
+}
+
+.site-name {
+    width: 10%;
+    float: left;
+    font-size: 3em;
+}
+
+.site-name a {
+    text-decoration: none;
+    color: white;
+}
+
+.dot {
+    color: #c49812;
+}
+
+.icon-img {
+    width: 60px;
+}
+
+nav {
+    width: 70%;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    width: 50%;
+    margin-left: auto;
+    position: relative;
+    top: 8px;
+    text-align: right;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    font-size: 1.2em;
+}
+
+.main-nav a:hover {
+    color: #c49812;
+}
+
+.main-nav .active {
+    color: #c49812;
+}
+
+.landing-text {
+    clear: both;
+    width: 50%;
+    position: relative;
+    top: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+header .landing-text h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+section {
+    padding: 100px;
+    text-align: center;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section h1 {
+    clear: both;
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 200px;
+    color: #c49812;
+}
+.about .hr1 {
+    float: left;
+    position: relative;
+    left: 250px;
+    top: 90px;
+}
+.about .hr2 {
+    float: right;
+    position: relative;
+    top: 90px;
+    right: 250px;
+}
+
+.about .flex {
+    text-align: left;
+    width: 49%;
+}
+
+.chefs {
+    background: url("../images/chefs-bg.jpg") no-repeat fixed;
+    color: white;
+}
+
+.chefs .hr1 {
+    float: left;
+    position: relative;
+    left: 250px;
+    top: 90px;
+}
+.chefs .hr2 {
+    float: right;
+    position: relative;
+    top: 90px;
+    right: 250px;
+}
+
+.chefs .flex {
+    width: 30%;
+}
+
+.chefs h3 {
+    color: #c49812;
+    margin: 30px 0px;
+}
+
+.logos img {
+    cursor: pointer;
+}
+
+.contact {
+    height: 100px;
+    background-color: gray;
+}
+
+.contact .hr1 {
+    /* float: left; */
+    position: relative;
+    top: 30px;
+}
+
+.contact .hr2 {
+    float: right;
+    position: relative;
+    top: 30px;
+}
+
+fieldset {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background-color: white;
+    position: relative;
+    top: 50px;
+    border: none;
+}
+
+.contact input[type="text"], input[type="email"] {
+    width: 260px;
+    height: 20px;
+    border: none;
+    background-color: rgb(196, 218, 226);
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.contact textarea {
+    width: 88%;
+    background-color: rgb(196, 218, 226);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+input[type="submit"]{
+    width: 150px;
+    height: 50px;
+    background-color: #c49812;
+    border: none;
+    margin-top: 80px;
+}
+
+.copyright {
+    background: url("../images/footer-bg.jpg") no-repeat center fixed;
+    background-size: cover;
+    height: 420px;
+}
+
+.copyright p {
+    position: relative;
+    color: grey;
+    top: 480px;
+}
